@@ -1,0 +1,21 @@
+{
+  "dataset": "BRFSS 2024",
+  "filas": 457670,
+  "columnas_seleccionadas": 21,
+  "sha256_seleccion": "337a9af0d95b3b25f671fd2b64934d97ffa81c103d3542c8002a0f868b644b79",
+  "entorno": {
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  },
+  "controles": {
+    "versiones_coinciden": true,
+    "filas_segun_fuente": true,
+    "columnas_segun_seleccion": true,
+    "huella_seleccion_coincide": true,
+    "clave_completa_y_unica": true,
+    "diccionario_completo": true
+  }
+}
