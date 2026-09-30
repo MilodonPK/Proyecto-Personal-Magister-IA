@@ -22,9 +22,3 @@ Reúno aquí la fuente, las decisiones y los resultados que respaldan el avance 
 Al revisar esta documentación contrasté las tablas con los cálculos sobre la selección original. El conjunto limpio conserva **457.670 filas**; **449.514** tienen objetivo observado y **8.156** quedan sin etiqueta. Las cuatro discrepancias registradas no cambian la clasificación con el corte de 14 días. También comprobé que las 16 filas del anexo de calidad coincidan con `reporte_calidad_f2.csv`.
 
 El diccionario corresponde a las 21 columnas de entrada. La variable `malestar_frecuente` se construye en F2, por lo que la versión limpia tiene 22 columnas. La versión analítica tiene 73: 67 predictores codificados, dos campos de identificación, tres del diseño muestral y el objetivo. En `../data/processed/parametros_transformacion.json` quedan los parámetros exploratorios y los ocho controles de F2.
-
-## Alcance de esta entrega
-
-La carpeta [f3/](f3/) conserva los resultados y las decisiones de la fase preparada para una entrega posterior. No la incluyo como evidencia del avance F1–F2. Sus decisiones están en su propia bitácora, separadas de la del avance actual.
-
-En el informe todavía falta incorporar la **figura del mapa conceptual**. La sección VIII contiene una tabla que relaciona conceptos y evidencias, pero no la presento como si fuera esa figura. Este pendiente está señalado tanto en Markdown como en Word.
