@@ -1,0 +1,21 @@
+name: Revisión de F1 y F2
+
+on: [push, pull_request]
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Pruebas del pipeline y cuadernos de F1 y F2
+        # F3 se entrega después; sus pruebas quedan fuera de esta revisión.
+        run: python -m pytest -q tests/test_pipeline_brfss.py tests/test_notebooks.py -k "not F3"
+      - name: Ejecución completa de F1 y F2
+        run: |
+          python scripts/preparar_brfss.py --descargar
+          python -m nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 F1/F1_Definicion.ipynb --output-dir /tmp/ci
+          python -m nbconvert --to notebook --execute --ExecutePreprocessor.timeout=600 F2/F2_Preprocesamiento.ipynb --output-dir /tmp/ci
