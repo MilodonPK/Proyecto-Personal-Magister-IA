@@ -1,0 +1,204 @@
+{
+  "medianas": {
+    "_AGE80": 58.0,
+    "_BMI5": 27.44,
+    "PHYSHLTH": 0.0
+  },
+  "centros": {
+    "_AGE80": 55.040167825696194,
+    "_BMI5": 28.45861652807254,
+    "PHYSHLTH": 4.483860346952486
+  },
+  "escalas": {
+    "_AGE80": 18.116374140144554,
+    "_BMI5": 6.278941400022712,
+    "PHYSHLTH": 8.82702652538027
+  },
+  "categorias": {
+    "SEXVAR": [
+      "1",
+      "2",
+      "Sin_respuesta"
+    ],
+    "GENHLTH": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Sin_respuesta"
+    ],
+    "ADDEPEV3": [
+      "1",
+      "2",
+      "Sin_respuesta"
+    ],
+    "EXERANY2": [
+      "1",
+      "2",
+      "Sin_respuesta"
+    ],
+    "MEDCOST1": [
+      "1",
+      "2",
+      "Sin_respuesta"
+    ],
+    "EDUCA": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Sin_respuesta"
+    ],
+    "EMPLOY1": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "Sin_respuesta"
+    ],
+    "INCOME3": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "Sin_respuesta"
+    ],
+    "MARITAL": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Sin_respuesta"
+    ],
+    "SMOKE100": [
+      "1",
+      "2",
+      "Sin_respuesta"
+    ],
+    "SMOKDAY2": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Sin_respuesta"
+    ]
+  },
+  "numericas": [
+    "_AGE80",
+    "_BMI5",
+    "PHYSHLTH"
+  ],
+  "categoricas": [
+    "SEXVAR",
+    "GENHLTH",
+    "ADDEPEV3",
+    "EXERANY2",
+    "MEDCOST1",
+    "EDUCA",
+    "EMPLOY1",
+    "INCOME3",
+    "MARITAL",
+    "SMOKE100",
+    "SMOKDAY2"
+  ],
+  "alcance": "Exploración F2; reajustar solo en entrenamiento para evaluar modelos",
+  "filas_entrada": 457670,
+  "filas_con_objetivo": 449514,
+  "filas_sin_objetivo": 8156,
+  "predictores_salida": [
+    "_AGE80",
+    "_AGE80__faltante",
+    "_BMI5",
+    "_BMI5__faltante",
+    "PHYSHLTH",
+    "PHYSHLTH__faltante",
+    "SEXVAR__1",
+    "SEXVAR__2",
+    "SEXVAR__Sin_respuesta",
+    "GENHLTH__1",
+    "GENHLTH__2",
+    "GENHLTH__3",
+    "GENHLTH__4",
+    "GENHLTH__5",
+    "GENHLTH__Sin_respuesta",
+    "ADDEPEV3__1",
+    "ADDEPEV3__2",
+    "ADDEPEV3__Sin_respuesta",
+    "EXERANY2__1",
+    "EXERANY2__2",
+    "EXERANY2__Sin_respuesta",
+    "MEDCOST1__1",
+    "MEDCOST1__2",
+    "MEDCOST1__Sin_respuesta",
+    "EDUCA__1",
+    "EDUCA__2",
+    "EDUCA__3",
+    "EDUCA__4",
+    "EDUCA__5",
+    "EDUCA__6",
+    "EDUCA__Sin_respuesta",
+    "EMPLOY1__1",
+    "EMPLOY1__2",
+    "EMPLOY1__3",
+    "EMPLOY1__4",
+    "EMPLOY1__5",
+    "EMPLOY1__6",
+    "EMPLOY1__7",
+    "EMPLOY1__8",
+    "EMPLOY1__Sin_respuesta",
+    "INCOME3__1",
+    "INCOME3__2",
+    "INCOME3__3",
+    "INCOME3__4",
+    "INCOME3__5",
+    "INCOME3__6",
+    "INCOME3__7",
+    "INCOME3__8",
+    "INCOME3__9",
+    "INCOME3__10",
+    "INCOME3__11",
+    "INCOME3__Sin_respuesta",
+    "MARITAL__1",
+    "MARITAL__2",
+    "MARITAL__3",
+    "MARITAL__4",
+    "MARITAL__5",
+    "MARITAL__6",
+    "MARITAL__Sin_respuesta",
+    "SMOKE100__1",
+    "SMOKE100__2",
+    "SMOKE100__Sin_respuesta",
+    "SMOKDAY2__0",
+    "SMOKDAY2__1",
+    "SMOKDAY2__2",
+    "SMOKDAY2__3",
+    "SMOKDAY2__Sin_respuesta"
+  ],
+  "sha256_seleccion_origen": "337a9af0d95b3b25f671fd2b64934d97ffa81c103d3542c8002a0f868b644b79",
+  "controles": {
+    "filas_limpias_preservadas": true,
+    "filas_analiticas_justificadas": true,
+    "objetivo_binario_coincide_cdc": true,
+    "predictores_finitos": true,
+    "sin_fuga_directa_objetivo": true,
+    "centros_cero": true,
+    "desviaciones_uno": true,
+    "crudo_no_modificado": true
+  }
+}
