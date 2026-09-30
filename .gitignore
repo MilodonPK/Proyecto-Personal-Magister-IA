@@ -1,0 +1,19 @@
+# Ambiente virtual: se reconstruye con requirements.txt
+.venv/
+
+# Archivos generados por Python, Jupyter y pytest
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Sistema operativo
+.DS_Store
+
+# BRFSS: microdatos grandes y resultados regenerables; se guarda su procedencia.
+data/raw/*.XPT*
+data/raw/*.zip
+data/raw/brfss_*.csv.gz
+data/processed/brfss_*.csv.gz
+# Archivos que no forman parte de la entrega
+NO USAR/
